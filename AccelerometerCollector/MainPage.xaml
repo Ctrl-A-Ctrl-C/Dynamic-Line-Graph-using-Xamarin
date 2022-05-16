@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:microchart="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             xmlns:chartview="clr-namespace:SkiaChart.Views;assembly=SkiaChart"
+             xmlns:chart="clr-namespace:SkiaChart.Charts;assembly=SkiaChart"
+             xmlns:mvvm="clr-namespace:AccelerometerCollector"
+             x:Class="AccelerometerCollector.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Sensor Data" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Button Text="Toggle Sensor" Clicked="Sensor_Clicked" />
+        <Grid>
+            <Label x:Name="AxResults" Text="{Binding AxText}" Grid.Row="0" Grid.Column="0"/>
+            <Label x:Name="AyResults" Text="{Binding AyText}" Grid.Row="1" Grid.Column="0"/>
+            <Label x:Name="AzResults" Text="{Binding AzText}" Grid.Row="2" Grid.Column="0"/>
+
+            <Label x:Name="GxResults" Text="{Binding GxText}" Grid.Row="0" Grid.Column="1"/>
+            <Label x:Name="GyResults" Text="{Binding GyText}" Grid.Row="1" Grid.Column="1"/>
+            <Label x:Name="GzResults" Text="{Binding GzText}" Grid.Row="2" Grid.Column="1"/>
+        </Grid>
+
+        <Grid>
+            <microchart:ChartView x:Name="ChartViewAX" HeightRequest="200" WidthRequest="200" Margin="20" Grid.Row="0" Grid.Column="0"></microchart:ChartView>
+            <microchart:ChartView x:Name="ChartViewAY" HeightRequest="200" WidthRequest="200" Margin="20" Grid.Row="0" Grid.Column="0"></microchart:ChartView>
+            <microchart:ChartView x:Name="ChartViewAZ" HeightRequest="200" WidthRequest="200" Margin="20" Grid.Row="0" Grid.Column="0"></microchart:ChartView>
+        </Grid>
+        <Label Text="Accelerometer Graph" HorizontalTextAlignment="Center"/>
+        <Grid>
+            <microchart:ChartView x:Name="ChartViewGX" HeightRequest="200" WidthRequest="200" Margin="20" Grid.Row="0" Grid.Column="0"></microchart:ChartView>
+            <microchart:ChartView x:Name="ChartViewGY" HeightRequest="200" WidthRequest="200" Margin="20" Grid.Row="0" Grid.Column="0"></microchart:ChartView>
+            <microchart:ChartView x:Name="ChartViewGZ" HeightRequest="200" WidthRequest="200" Margin="20" Grid.Row="0" Grid.Column="0"></microchart:ChartView>
+        </Grid>
+        <Label Text="Gyroscope Graph" HorizontalTextAlignment="Center"/>
+        <Entry Placeholder="{Binding EntryText}" TextChanged="OnEntryTextChanged"/>
+    </StackLayout>
+
+
+</ContentPage>
+
+    
+    

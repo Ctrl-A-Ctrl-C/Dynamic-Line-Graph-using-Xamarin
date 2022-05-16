@@ -1,0 +1,14 @@
+C:\AccelerometerCollector\AccelerometerCollector\AccelerometerCollector\bin\Debug\netstandard2.0\AccelerometerCollector.deps.json
+C:\AccelerometerCollector\AccelerometerCollector\AccelerometerCollector\bin\Debug\netstandard2.0\AccelerometerCollector.dll
+C:\AccelerometerCollector\AccelerometerCollector\AccelerometerCollector\bin\Debug\netstandard2.0\ref\AccelerometerCollector.dll
+C:\AccelerometerCollector\AccelerometerCollector\AccelerometerCollector\bin\Debug\netstandard2.0\AccelerometerCollector.pdb
+C:\AccelerometerCollector\AccelerometerCollector\AccelerometerCollector\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\AccelerometerCollector\AccelerometerCollector\AccelerometerCollector\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\AccelerometerCollector\AccelerometerCollector\AccelerometerCollector\obj\Debug\netstandard2.0\AccelerometerCollector.AssemblyInfoInputs.cache
+C:\AccelerometerCollector\AccelerometerCollector\AccelerometerCollector\obj\Debug\netstandard2.0\AccelerometerCollector.AssemblyInfo.cs
+C:\AccelerometerCollector\AccelerometerCollector\AccelerometerCollector\obj\Debug\netstandard2.0\AccelerometerCollector.csproj.CoreCompileInputs.cache
+C:\AccelerometerCollector\AccelerometerCollector\AccelerometerCollector\obj\Debug\netstandard2.0\XamlC.stamp
+C:\AccelerometerCollector\AccelerometerCollector\AccelerometerCollector\obj\Debug\netstandard2.0\AccelerometerCollector.dll
+C:\AccelerometerCollector\AccelerometerCollector\AccelerometerCollector\obj\Debug\netstandard2.0\ref\AccelerometerCollector.dll
+C:\AccelerometerCollector\AccelerometerCollector\AccelerometerCollector\obj\Debug\netstandard2.0\AccelerometerCollector.pdb
+C:\AccelerometerCollector\AccelerometerCollector\AccelerometerCollector\obj\Debug\netstandard2.0\AccelerometerCollector.csproj.AssemblyReference.cache

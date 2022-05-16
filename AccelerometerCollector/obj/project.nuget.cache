@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "dgSpecHash": "3C66KmTPi6ck8f1UcSquSze/Yzx3VzSAHQgWDGnZhUI0BYHfiQddnA6Edpd7gX3uwZEe62qEeKxvE2yyHFEMRg==",
+  "success": true,
+  "projectFilePath": "C:\\AccelerometerCollector\\AccelerometerCollector\\AccelerometerCollector\\AccelerometerCollector.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\phuon\\.nuget\\packages\\hinetcloud.telerik.wincontrols.chartview\\21.8.4.8\\hinetcloud.telerik.wincontrols.chartview.21.8.4.8.nupkg.sha512",
+    "C:\\Users\\phuon\\.nuget\\packages\\microcharts\\0.9.5.9\\microcharts.0.9.5.9.nupkg.sha512",
+    "C:\\Users\\phuon\\.nuget\\packages\\microcharts.forms\\0.9.5.9\\microcharts.forms.0.9.5.9.nupkg.sha512",
+    "C:\\Users\\phuon\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\phuon\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\phuon\\.nuget\\packages\\plugin.permissions\\6.0.1\\plugin.permissions.6.0.1.nupkg.sha512",
+    "C:\\Users\\phuon\\.nuget\\packages\\skiachart.forms\\1.2.50\\skiachart.forms.1.2.50.nupkg.sha512",
+    "C:\\Users\\phuon\\.nuget\\packages\\skiasharp\\2.80.2\\skiasharp.2.80.2.nupkg.sha512",
+    "C:\\Users\\phuon\\.nuget\\packages\\skiasharp.views.forms\\2.80.2\\skiasharp.views.forms.2.80.2.nupkg.sha512",
+    "C:\\Users\\phuon\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\phuon\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\phuon\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\phuon\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\phuon\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\phuon\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\phuon\\.nuget\\packages\\xamarin.forms\\5.0.0.2291\\xamarin.forms.5.0.0.2291.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'HiNetCloud.Telerik.WinControls.ChartView 21.8.4.8' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "HiNetCloud.Telerik.WinControls.ChartView",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
+}
